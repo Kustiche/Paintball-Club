@@ -4523,23 +4523,23 @@ body {
   }
 }
 .hero__button {
-  padding: 20px 35px;
+  padding: 18px 33px;
   font-size: 20px;
   line-height: 27px;
   text-decoration: none;
   color: #FFFFFF;
   background-color: #E3874F;
+  border: 2px solid #E3874F;
   border-radius: 50px;
-  -webkit-transition: -webkit-transform 0.4s;
-  transition: -webkit-transform 0.4s;
-  -o-transition: transform 0.4s;
-  transition: transform 0.4s;
-  transition: transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .hero__button:hover {
   -webkit-transform: scale(95%);
       -ms-transform: scale(95%);
           transform: scale(95%);
+  background-color: transparent;
 }
 @media (max-width: 410px) {
   .hero__button {
@@ -4571,6 +4571,7 @@ body {
 }
 .information__title {
   margin-bottom: 50px;
+  text-align: center;
 }
 @media (max-width: 780px) {
   .information__title {
@@ -4910,27 +4911,26 @@ body {
   text-align: center;
 }
 .offer__button {
-  padding: 15px 35px;
+  padding: 13px 33px;
   text-decoration: none;
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 50px;
-  -webkit-transition: -webkit-transform 0.4s;
-  transition: -webkit-transform 0.4s;
-  -o-transition: transform 0.4s;
-  transition: transform 0.4s;
-  transition: transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .offer__button:hover {
   -webkit-transform: scale(95%);
       -ms-transform: scale(95%);
           transform: scale(95%);
+  background-color: transparent;
 }
 @media (max-width: 768px) {
   .offer__button {
     font-size: 15px;
-    padding: 10px 25px;
+    padding: 8px 23px;
   }
 }
 
